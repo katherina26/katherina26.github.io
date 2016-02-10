@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Week 5 Questions</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div>
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"> <a href="#q1" aria-controls="Q1" role="tab" data-toggle="tab">Question 1</a></li>
+        <li role="presentation"><a href="#q2" aria-controls="Q2" role="tab" data-toggle="tab">Question 2</a></li>
+        <li role="presentation"><a href="#q3" aria-controls="Q3" role="tab" data-toggle="tab">Question 3</a></li>
+        <li role="presentation"><a href="#q4" aria-controls="Q4" role="tab" data-toggle="tab">Question 4</a></li>
+        <li role="presentation"><a href="#q5" aria-controls="Q5" role="tab" data-toggle="tab">Question 5</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="Q1">
+          <div class="row">
+            <div class="col-md-12">
+              <pre>
+              test
+            </pre>
+            </div>
+            <div class="col-md-12">
+              <button id="q1button" type="button" class="btn btn-primary">Button</button>
+            </div>
+            <div class="col-md-12">
+              <div id="q1result"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        function getTriangle() {
+          var str = "";
+
+          for (var i = 1; i <= 6; i++) {
+
+
+            for (var j = 1; j <= i; j++) {
+              str = str + "#";
+            }
+
+            str = str + "<br/>";
+          }
+
+
+          $("#q1result").html(str);
+
+        }
+
+        $("#q1button").on("click", function() {
+          getTriangle();
+
+        });
+
+        $("#q2").on("click", function() {
+          $("#q2result").html("answer two!");
+        });
+
+      });
+    </script>
+</body>
+
+</html>
