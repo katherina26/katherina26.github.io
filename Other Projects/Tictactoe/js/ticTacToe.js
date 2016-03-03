@@ -99,7 +99,7 @@ $(document).ready(function() {
 
     for (var i = 0; i < mulitArr.length; i++) { //a loop within a loop, so if the length of the array is 3 then the player has won, i starts at 0 and goes up by increments of 1 until won
       playerWon = true;
-      for (var j = 0; j < mulitArr[i].length; j++) { //j starts at 0 and increments of 1 until winning combination has been met 
+      for (var j = 0; j < mulitArr[i].length; j++) { //j starts at 0 and increments of 1 until winning combination has been met
         if (!$("#board").find("div").eq(mulitArr[i][j]).find("span").hasClass(circleOrEx)) { //if not the board will find
           playerWon = false;
         }
