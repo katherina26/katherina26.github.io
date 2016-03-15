@@ -1,4 +1,4 @@
-$.get("http://katherina26.github.io/partials/nav.html", function(data) {
+$.get("http://katherina26.github.io/partials/nav.html" function(data) {
 
   $(document).ready(function()) {
 
