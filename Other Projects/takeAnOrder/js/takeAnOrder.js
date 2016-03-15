@@ -35,7 +35,7 @@ $(document).ready(function() {
 
     var val = $(this).val();
     $("#log").append("<br>select change");
-    $("#mySelectMessage").html(val + " is a nice selection!");
+    $("#mySelectMessage").html(val + " is hotttt!");
 
   });
 
@@ -50,7 +50,7 @@ $(document).ready(function() {
     userOrder.myTextarea = $("#myTextarea").val();
     userOrder.mySelect = $("#mySelect").val();
     userOrder.myRadio = $("[name='size']:checked").val();
-    userOrder.myCheckValues = [];
+    userOrder.myCheckValues = $("[name='color']:checked").val();
 
     $("[name='vehicle']:checked").each(function() {
       userOrder.myCheckValues.push($(this).val());
