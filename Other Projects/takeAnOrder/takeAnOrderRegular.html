@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Take an Order Regular HTML</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <!-- user will input their name here -->
+    <input id="mySingleLineText" type="text" value="Type name here">
+    <br>
+    <br>
+    <!-- user will input their address and contact info here -->
+    <textarea id="myTextarea" rows="10" cols="50">Write address and contact information here..</textarea>
+    <br>
+    <br>
+
+    <!-- the six outfits will be displayed here-->
+    <h2> Outfits </h2>
+
+    <div>
+      <img src="images/blackdress.jpg" alt "black-dress">
+      <img src="images/burgandydress.jpeg" alt "burgandy-dress">
+      <img src="images/navydress.jpeg" alt "navy-dress">
+      <img src="images/navydress2.jpg" alt "navy-dress-2">
+      <img src="images/olivedress.jpg" alt "olive-dress">
+      <img src="images/orangedress.jpg" alt "orange-dress">
+    </div>
+
+    <!-- user will be able to choose their outfit option here -->
+    <select id="mySelect">
+      <option value="value1">Outfit 1</option>
+      <option value="value2" selected>Outfit 2</option>
+      <option value="value3">Outfit 3</option>
+      <option value="value3">Outfit 4</option>
+      <option value="value3">Outfit 5</option>
+      <option value="value3">Outfit 6</option>
+    </select>
+    <br>
+
+    <div id="mySelectMessage"></div>
+
+    <h3> Sizes </h3>
+    <!-- user can pick their size here -->
+    <input type="radio" name="size" value="XS" checked> XS
+    <br>
+    <input type="radio" name="size" value="S"> S
+    <br>
+    <input type="radio" name="size" value="M"> M
+    <br>
+    <input type="radio" name="size" value="L"> L
+    <br>
+    <input type="radio" name="size" value="XL"> XL
+    <br>
+
+    <h3> Colours </h3>
+    <!-- user will input their colour preferences here -->
+    <input type="checkbox" name="colour" value="red" checked>Red
+    <br>
+    <input type="checkbox" name="colour" value="black">Black
+    <br>
+    <input type="checkbox" name="colour" value="blue">Blue
+    <br>
+    <input type="checkbox" name="colour" value="olive">Olive
+    <br>
+    <input type="checkbox" name="colour" value="navy">Navy
+    <br>
+    <input type="checkbox" name="colour" value="orange">Orange
+    <br>
+    <input type="checkbox" name="colour" value="burgandy">Burgandy
+    <br>
+    <input type="checkbox" name="colour" value="purple">Purple
+    <br>
+    <input type="checkbox" name="colour" value="pink">Pink
+    <br>
+    <input type="checkbox" name="colour" value="white">White
+    <br>
+    <br>
+    <button id="myButton" type="button">Click Me!</button>
+    <br>
+    <br>
+
+    <!-- all of users clicking and log info will be shown down here, once clicked the order will be shown -->
+    <div id="log">LOG</div>
+  </div>
+
+  <script src="js/takeAnOrder.js"></script>
+</body>
+
+</html>
