@@ -1,0 +1,16 @@
+body {
+  background-color: grey;
+  font-size: 18px;
+}
+img {
+  width: 200px;
+  height: 300px;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+#log {
+  text-decoration: underline;
+  font-size: 20px;
+}
