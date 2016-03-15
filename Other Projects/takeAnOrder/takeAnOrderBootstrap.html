@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Take An Order Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .col-md-6 {
+      padding-top: 25px;
+    }
+  </style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <!-- input name here -->
+        <input id="mySingleLineText" class="form-control" type="text" value="Type name here">
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <!--textarea, address and contact info here -->
+        <textarea id="myTextarea" class="form-control" rows="10" cols="50">Write address and contact here ...</textarea>
+      </div>
+      <div class="col-md-6">
+        <!--select outfit option-->
+        <select id="mySelect" class="form-control">
+          <option value="value1" selected>Outfit 1</option>
+          <option value="value2">Outfit 2</option>
+          <option value="value3">Outfit 3</option>
+          <option value="value3">Outfit 4</option>
+          <option value="value3">Outfit 5</option>
+          <option value="value3">Outfit 6</option>
+        </select>
+        <div id="mySelectMessage"></div>
+      </div>
+
+      <div class="col-md-6">
+        <!-- radio - select size user wants-->
+
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="size" value="XS" checked> XS
+          </label>
+        </div>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="size" value="S"> S
+          </label>
+        </div>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="size" value="M"> M
+          </label>
+        </div>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="size" value="L"> L
+          </label>
+        </div>
+        <div class="radio-inline">
+          <label>
+            <input type="radio" name="size" value="XL"> XL
+          </label>
+        </div>
+
+        <br>
+        <br>
+      </div>
+      <div class="col-md-6">
+
+        <!-- user will input their colour preferences here -->
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="red" checked>Red
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="black">Black
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="blue">Blue
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="olive">Olive
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="navy">Navy
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="orange">Orange
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="burgandy">Burgandy
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="purple">Purple
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="pink">Pink
+          </label>
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="colour" value="white">White
+          </label>
+        </div>
+
+
+      </div>
+      <div class="col-md-6">
+        <!--button -->
+        <button class="btn btn-default" id="myButton" type="button">Click Me!</button>
+      </div>
+
+      <div class="col-md-6">
+        <!--log -->
+        <div id="log">LOG</div>
+      </div>
+
+    </div>
+  </div>
+  <script src="js/takeAnOrder.js"></script>
+</body>
+
+</html>
