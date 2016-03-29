@@ -1,0 +1,233 @@
+<div class="row">
+  <br>
+  <div class="col-md-3"></div>
+  <!-- input name here -->
+  <br>
+  <div class="col-md-6">
+    <input id="mySingleLineText" class="form-control" type="text" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'">
+  </div>
+  <div class="col-md-3"></div>
+</div>
+<br>
+<br>
+<div class="col-md-6">
+  <!--textarea, address and contact info here -->
+  <textarea id="myTextArea" class="form-control" rows="10" cols="50" placeholder="Enter your address and contact information here ..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your address and contact information here ... '"></textarea>
+</div>
+
+<!-- how dresses look like here -->
+<div class="row">
+
+  <div class="col-lg-12">
+    <h1 class="page-header">Gallery</h1>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-xs-6 ">
+
+    <img class="dress img-responsive" src="images/blackdress.jpg" alt="black dress">
+
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6 ">
+
+    <img class="dress img-responsive" src="images/burgandydress.jpeg" alt="burgandy">
+
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6 ">
+
+    <img class="dress img-responsive" src="images/navydress.jpeg" alt="navy">
+
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6 ">
+
+    <img class="dress img-responsive" src="images/navydress2.jpg" alt="navy2">
+
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6 ">
+
+    <img class="dress img-responsive" src="images/olivedress.jpg" alt="olive">
+
+  </div>
+  <div class="col-lg-4 col-md-4 col-xs-6 ">
+
+    <img class="dress img-responsive" src="images/orangedress.jpg" alt="orange">
+
+  </div>
+</div>
+
+<div class="col-md-6"></div>
+<div class="col-md-3"></div>
+<!--select outfit option-->
+<h3> Choose one: </h3>
+<br>
+<div class="col-md-6">
+  <select id="mySelect" class="form-control">
+    <option value="Dress 1" selected>Dress 1</option>
+    <option value="Dress 2">Dress 2</option>
+    <option value="Dress 3">Dress 3</option>
+    <option value="Dress 4">Dress 4</option>
+    <option value="Dress 5">Dress 5</option>
+    <option value="Dress 6">Dress 6</option>
+  </select>
+  <div id="mySelectMessage"></div>
+</div>
+
+<div class="col-md-6">
+  <!-- radio - select size user wants-->
+  <div class="radio-inline">
+    <label>
+      <input type="radio" name="size" value="XS" checked> XS
+    </label>
+  </div>
+  <div class="radio-inline">
+    <label>
+      <input type="radio" name="size" value="S"> S
+    </label>
+  </div>
+  <div class="radio-inline">
+    <label>
+      <input type="radio" name="size" value="M"> M
+    </label>
+  </div>
+  <div class="radio-inline">
+    <label>
+      <input type="radio" name="size" value="L"> L
+    </label>
+  </div>
+  <div class="radio-inline">
+    <label>
+      <input type="radio" name="size" value="XL"> XL
+    </label>
+  </div>
+
+  <br>
+  <br>
+</div>
+<div class="col-md-6">
+
+  <!-- user will input their colour preferences here -->
+  <h4> Colours: </h4>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="red" checked>Red
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="black">Black
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="blue">Blue
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="olive">Olive
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="navy">Navy
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="orange">Orange
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="burgandy">Burgandy
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="purple">Purple
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="pink">Pink
+    </label>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="color" value="white">White
+    </label>
+  </div>
+
+
+</div>
+<div class="col-md-6">
+  <!--button -->
+  <button class="btn btn-default" id="myButton" type="button">Click Me!</button>
+</div>
+
+<div class="col-md-3"></div>
+
+<div class="col-md-6">
+  <!--log -->
+  <br>
+  <br>
+  <div id="log">LOG</div>
+</div>
+
+<!-- comments box -->
+<br>
+<br>
+<div class="detailBox">
+  <div class="titleBox">
+    <label>Comment Box</label>
+  </div>
+  <div class="commentBox">
+  </div>
+  <div class="actionBox">
+    <ul class="commentList">
+      <li>
+        <div class="commenterImage">
+          <img src="http://lorempixel.com/50/50/people/6" />
+        </div>
+        <div class="commentText">
+          <p class="">I recommend this website 100%!</p> <span class="date sub-text">on March 5th, 2016</span>
+
+        </div>
+      </li>
+      <li>
+        <div class="commenterImage">
+          <img src="http://lorempixel.com/50/50/people/7" />
+        </div>
+        <div class="commentText">
+          <p class="">I was skeptical at first about the fit of the dresses, but after ordering my first dress from here, I'm definitely going to order more.</p> <span class="date sub-text">on March 12th, 2016</span>
+
+        </div>
+      </li>
+      <li>
+        <div class="commenterImage">
+          <img src="http://lorempixel.com/50/50/people/9" />
+        </div>
+        <div class="commentText">
+          <p class="">These dresses fit amazing!</p> <span class="date sub-text">on March 15th, 2016</span>
+
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline" role="form">
+      <div class="form-group">
+        <input class="form-control" type="text" placeholder="Your comments" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-default">Add</button>
+      </div>
+    </form>
+  </div>
+</div>
