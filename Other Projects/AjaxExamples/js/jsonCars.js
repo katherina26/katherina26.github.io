@@ -8,12 +8,13 @@ $(document).ready(function() {
       $.each(data, function(index, item) {
           html += '<div class="col-md-4">' +
             '<div class="carName">' + item.name + '</div>' +
-            '<div class="carStyle"><small>type </small>' + item.type + '</div>' +
+            '<div class="carType"><small>type </small>' + item.type + '</div>' +
+            '<div class="carStyle"><small> style</small>' + item.style + '</div>' +
             '<div class="carYear"><small> year</small>' + item.year + '</div>' +
             '<img class="carImage" src="' + item.image + '"/>' +
 
-          '<div class="panel panel-default">' + //added
-            '<div class="panel-heading">Renter Comments</div>'; //added
+          '<div class="panel panel-default">' + //surrounding panel
+            '<div class="panel-heading">Renter Comments</div>'; //surrounding panel for renter comments
           $.each(item.comments, function(ind, i) {
               html += '<div class="panel-body">' + //added
                 '<div class="renterName">' + i.username + '</div>' +
