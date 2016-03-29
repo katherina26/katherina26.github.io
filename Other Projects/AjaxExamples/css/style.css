@@ -1,12 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 .carImage {
   width: 100%;
+  border: black;
+}
+
+body {
+  font-family: Raleway, sans-serif;
 }
 small {
   font-weight: bold;
-  font-family: Raleway, sans-serif;
   font-style: italic;
-  font-size: 24px;
+  font-size: 15px;
 }
 h1 {
   text-align: center;
