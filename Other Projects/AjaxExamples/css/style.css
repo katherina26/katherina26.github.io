@@ -34,3 +34,11 @@ h1 {
   text-shadow: 0px 2px 3px #666;
   text-align: center;
 }
+
+.renterName {
+text-decoration: underline;
+font-weight: bold;
+
+
+
+}
