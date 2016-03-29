@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.carImage {
+  width:100%;
+}
+.carName{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+small{
+  font-weight: bold;
+  font-style: italic;
+}
+h1{
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 20px;
+}
+.panel-heading {
+  text-shadow: 0px 2px 3px #666;
+  text-align: center;
+}
