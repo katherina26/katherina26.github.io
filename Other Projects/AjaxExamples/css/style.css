@@ -17,7 +17,7 @@ h1 {
   text-align: center;
   font-size: 48px;
   letter-spacing: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .carType {
   text-align: center;
@@ -28,7 +28,7 @@ h1 {
 .carStyle, .carYear {
   font-size: 15px;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: right;
 }
 .panel-heading {
   text-shadow: 0px 2px 3px #666;
