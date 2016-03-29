@@ -8,8 +8,8 @@ $(document).ready(function() {
       $.each(data, function(index, item) {
           html += '<div class="col-md-4">' +
             '<div class="carType">' + item.type + '</div>' +
-            '<div class="carStyle"> <small> style </small>' + item.style + '</div>' +
-            '<div class="carYear"> <small> year </small>' + item.year + '</div>' +
+            '<div class="carStyle"> <small> Style </small>' + item.style + '</div>' +
+            '<div class="carYear"> <small> Year </small>' + item.year + '</div>' +
             '<img class="carImage" src="' + item.image + '"/>' +
 
           '<div class="panel panel-default">' + //surrounding panel
