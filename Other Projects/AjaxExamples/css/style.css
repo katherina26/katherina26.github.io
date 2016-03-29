@@ -1,10 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-
 .carImage {
   width: 100%;
   border: black;
 }
-
 body {
   font-family: Raleway, sans-serif;
   background-color: grey;
@@ -19,6 +17,7 @@ h1 {
   text-align: center;
   font-size: 48px;
   letter-spacing: 15px;
+  margin-bottom: 15px;
 }
 .carType {
   text-align: center;
@@ -26,21 +25,16 @@ h1 {
   margin: 10px 10px 10px 10px;
   outline: 3px outset #FFFFFF;
 }
-
-.carStyle , .carYear {
+.carStyle, .carYear {
   font-size: 15px;
   margin-bottom: 10px;
-
+  text-align: center;
 }
 .panel-heading {
   text-shadow: 0px 2px 3px #666;
   text-align: center;
 }
-
 .renterName {
-text-decoration: underline;
-font-weight: bold;
-
-
-
+  text-decoration: underline;
+  font-weight: bold;
 }
