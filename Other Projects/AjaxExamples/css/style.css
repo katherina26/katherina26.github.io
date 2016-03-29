@@ -38,4 +38,5 @@ h1 {
 .renterName {
   text-decoration: underline;
   font-weight: bold;
+  font-size: 25px;
 }
