@@ -1,4 +1,4 @@
-$document.ready(function)
+$(document).ready(function(){
 
 
 $(".nav").find("li").removeClass("active");
@@ -12,10 +12,22 @@ getPartial(page);
 
 function getPartial(partial) {
 
-alert(partial);
+if (partial == "homePage") {
+  $.get("partials/home.html", function(data){
+    $("#pageContent").html(data);
+    $('.carousel').carousel();
+
+  })
+
+} else if (partial == "seeCatsPage") {
+
+} else if (partial == "orderPage") {
+
+}
 
 }
 
 
 //begin program to get homepage
 getPartial("homePage");
+)}
