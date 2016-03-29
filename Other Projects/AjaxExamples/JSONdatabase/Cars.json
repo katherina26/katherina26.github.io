@@ -9,12 +9,12 @@
     "comment": "Loved this car..."
   }, {
     "username": "BrashTaga",
-    "stars": 1,
-    "comment": "Destroyed my house"
+    "stars": 4,
+    "comment": "It ran well, no complaints here"
   }, {
     "username": "Dragonakom",
     "stars": 4,
-    "comment": "Pretty good kitty"
+    "comment": "Pretty good car"
   }]
 }, {
   "type": "BMW 3 Series",
@@ -24,15 +24,15 @@
   "comments": [{
     "username": "Jubeamese",
     "stars": 4,
-    "comment": "So cute!!!"
+    "comment": "Will rent again!"
   }, {
     "username": "Pearbrai",
     "stars": 5,
-    "comment": "Can i buy it?"
+    "comment": "Can I buy it?"
   }, {
     "username": "FacePriceless",
     "stars": 5,
-    "comment": "Seriously loved her!"
+    "comment": "Seriously loved it!"
   }]
 }, {
   "type": "CHEVROLET COBALT",
@@ -40,15 +40,15 @@
   "year": "2006",
   "image": "images/car3.jpg",
   "comments": [{
-    "username": "Ravenertu",
-    "stars": 2,
-    "comment": "Terrorized my dog!"
+    "username": "Yorker",
+    "stars": 5,
+    "comment": "Loved it!"
   }, {
     "username": "Roadbed",
-    "stars": 1,
-    "comment": "Meh"
+    "stars": 5,
+    "comment": "Needed something big for the weekend, was great!"
   }, {
-    "username": "Iconaler",
+    "username": "Icon",
     "stars": 5,
     "comment": "Reminded me of my old cat"
   }]
@@ -58,17 +58,17 @@
   "year": "2005",
   "image": "images/car4.jpg",
   "comments": [{
-    "username": "Ravenertu",
+    "username": "PrettyComet",
     "stars": 2,
-    "comment": "Terrorized my dog!"
+    "comment": "One of Japan's poorer offerings"
   }, {
-    "username": "Roadbed",
-    "stars": 1,
-    "comment": "Meh"
-  }, {
-    "username": "Iconaler",
+    "username": "Larry32",
     "stars": 5,
-    "comment": "Reminded me of my old cat"
+    "comment": "Best midsize sport sedan"
+  }, {
+    "username": "Chickabonita",
+    "stars": 4,
+    "comment": "Great for the money with a few problems"
   }]
 }, {
   "type": "KIA SPECTRA LX",
@@ -76,17 +76,17 @@
   "year": "2005",
   "image": "images/car5.jpg",
   "comments": [{
-    "username": "Ravenertu",
-    "stars": 2,
-    "comment": "Terrorized my dog!"
-  }, {
-    "username": "Roadbed",
-    "stars": 1,
-    "comment": "Meh"
-  }, {
-    "username": "Iconaler",
+    "username": "Octane82",
     "stars": 5,
-    "comment": "Reminded me of my old cat"
+    "comment": "Very reliable and fun to drive!"
+  }, {
+    "username": "Ironbelt8",
+    "stars": 1,
+    "comment": "This is the worst car I ever had!"
+  }, {
+    "username": "HelenaaP",
+    "stars": 5,
+    "comment": "A great 'Mom' Car"
   }]
 }, {
   "type": "BMW 3 SERIES 325I",
@@ -94,17 +94,17 @@
   "year": "2003",
   "image": "images/car6.jpg",
   "comments": [{
-    "username": "Ravenertu",
+    "username": "Raven",
+    "stars": 4,
+    "comment": "Fast car!"
+  }, {
+    "username": "Flowerpetal9",
+    "stars": 4,
+    "comment": "Nice interior, clean space"
+  }, {
+    "username": "Impaler",
     "stars": 2,
-    "comment": "Terrorized my dog!"
-  }, {
-    "username": "Roadbed",
-    "stars": 1,
-    "comment": "Meh"
-  }, {
-    "username": "Iconaler",
-    "stars": 5,
-    "comment": "Reminded me of my old cat"
+    "comment": "Picked it because of my friend, wasn't my choice"
   }]
 }, {
   "type": "CHEVROLET COBALT LT",
@@ -112,17 +112,17 @@
   "year": "2010",
   "image": "images/car7.jpg",
   "comments": [{
-    "username": "Ravenertu",
-    "stars": 2,
-    "comment": "Terrorized my dog!"
-  }, {
-    "username": "Roadbed",
-    "stars": 1,
-    "comment": "Meh"
-  }, {
-    "username": "Iconaler",
+    "username": "Jim8",
     "stars": 5,
-    "comment": "Reminded me of my old cat"
+    "comment": "Ran well, no complaints here"
+  }, {
+    "username": "Lory4322",
+    "stars": 1,
+    "comment": "Meh, wish I had picked another car to be honest."
+  }, {
+    "username": "Lilpool",
+    "stars": 5,
+    "comment": "Enjoyed it."
   }]
 }, {
   "type": "DODGE CARAVAN",
@@ -130,17 +130,17 @@
   "year": "2007",
   "image": "images/car8.jpg",
   "comments": [{
-    "username": "Ravenertu",
-    "stars": 2,
-    "comment": "Terrorized my dog!"
+    "username": "Joey355",
+    "stars": 4,
+    "comment": "It ran well, fit everyone"
   }, {
-    "username": "Roadbed",
+    "username": "Millie40",
     "stars": 1,
-    "comment": "Meh"
+    "comment": "Meh, broke down once, wasn't impressed."
   }, {
-    "username": "Iconaler",
-    "stars": 5,
-    "comment": "Reminded me of my old cat"
+    "username": "Tonny67",
+    "stars": 3,
+    "comment": "Reminded me of my old car, had a couple kinks but did the job"
   }]
   }, {
     "type": "CHRYSLER SEBRING",
@@ -148,16 +148,16 @@
     "year": "2005",
     "image": "images/car9.jpg",
     "comments": [{
-      "username": "Ravenertu",
-      "stars": 2,
-      "comment": "Terrorized my dog!"
+      "username": "Packa",
+      "stars": 4,
+      "comment": "Smooth ride!"
     }, {
-      "username": "Roadbed",
-      "stars": 1,
-      "comment": "Meh"
-    }, {
-      "username": "Iconaler",
+      "username": "Roadie",
       "stars": 5,
-      "comment": "Reminded me of my old cat"
+      "comment": "Enjoyed it for the weekend."
+    }, {
+      "username": "Hookah",
+      "stars": 1,
+      "comment": "Had weird smell to it"
     }]
 }]
