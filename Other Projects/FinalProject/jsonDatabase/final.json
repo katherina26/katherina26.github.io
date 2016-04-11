@@ -1,0 +1,109 @@
+[{
+  "type": "ACURA RSX",
+  "style": "Coupe",
+  "year": "2005",
+  "image": "images/blackdress.jpg",
+  "comments": [{
+    "username": "AboveAlpha",
+    "stars": 5,
+    "comment": "Loved this car..."
+  }, {
+    "username": "BrashTaga",
+    "stars": 4,
+    "comment": "It ran well, no complaints here"
+  }, {
+    "username": "Dragonakom",
+    "stars": 4,
+    "comment": "Pretty good car"
+  }]
+}, {
+  "type": "BMW 3 Series",
+  "style": "Sedan",
+  "year": "2004",
+  "image": "images/burgandydress.jpeg",
+  "comments": [{
+    "username": "Jubeamese",
+    "stars": 4,
+    "comment": "Will rent again!"
+  }, {
+    "username": "Pearbrai",
+    "stars": 5,
+    "comment": "Can I buy it?"
+  }, {
+    "username": "FacePriceless",
+    "stars": 5,
+    "comment": "Seriously loved it!"
+  }]
+}, {
+  "type": "CHEVROLET COBALT",
+  "style": "Sedan",
+  "year": "2006",
+  "image": "images/navydress.jpeg",
+  "comments": [{
+    "username": "Yorker",
+    "stars": 5,
+    "comment": "Loved it!"
+  }, {
+    "username": "Roadbed",
+    "stars": 5,
+    "comment": "Needed something big for the weekend, was great!"
+  }, {
+    "username": "Icon",
+    "stars": 5,
+    "comment": "Reminded me of my old cat"
+  }]
+}, {
+  "type": "MAZDA6",
+  "style": "Sedan",
+  "year": "2005",
+  "image": "images/navydress2.jpg",
+  "comments": [{
+    "username": "PrettyComet",
+    "stars": 2,
+    "comment": "One of Japan's poorer offerings"
+  }, {
+    "username": "Larry32",
+    "stars": 5,
+    "comment": "Best midsize sport sedan"
+  }, {
+    "username": "Chickabonita",
+    "stars": 4,
+    "comment": "Great for the money with a few problems"
+  }]
+}, {
+  "type": "KIA SPECTRA LX",
+  "style": "Sedan",
+  "year": "2005",
+  "image": "images/olivedress.jpg",
+  "comments": [{
+    "username": "Octane82",
+    "stars": 5,
+    "comment": "Very reliable and fun to drive!"
+  }, {
+    "username": "Ironbelt8",
+    "stars": 1,
+    "comment": "This is the worst car I ever had!"
+  }, {
+    "username": "HelenaaP",
+    "stars": 5,
+    "comment": "A great 'Mom' Car"
+  }]
+}, {
+  "type": "BMW 3 SERIES 325I",
+  "style": "Sedan",
+  "year": "2003",
+  "image": "images/orangedress.jpg",
+  "comments": [{
+    "username": "Raven",
+    "stars": 4,
+    "comment": "Fast car!"
+  }, {
+    "username": "Flowerpetal9",
+    "stars": 4,
+    "comment": "Nice interior, clean space"
+  }, {
+    "username": "Impaler",
+    "stars": 2,
+    "comment": "Picked it because of my friend, wasn't my choice"
+  }]
+}]
