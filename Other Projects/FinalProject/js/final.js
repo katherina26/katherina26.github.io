@@ -14,7 +14,7 @@ $(document).ready(function() {
 
             }) //click
 
-        //get the parital via JSON, add to page, activiate associating js
+        //get the partial via JSON, add to page, activiate associating js
         function getPartial(partial) {
 
             if (partial == "homePage") { //ajax get home.html
