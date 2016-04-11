@@ -22,7 +22,7 @@ $(document).ready(function() {
                     $("#pageContent").html(data);
                     $('.carousel').carousel();
                 })
-            } else if (partial == "seeCatsPage") { //ajax models.html
+            } else if (partial == "seeDressPage") { //ajax models.html
                 //paste the getJSON here; change the append id; change the file name
                 $.getJSON("jsonDatabase/final.json", function(data) {
 
@@ -63,11 +63,10 @@ $(document).ready(function() {
 
                     }) //getJSON
             } else if (partial == "orderPage") { //ajax get order.html
-                $.get("partials/order2.html", function(data) {
+                $.get("partials/order.html", function(data) {
 
                         $("#pageContent").html(data);
 
-                        $('#startRentDate, #endRentDate').datepicker({});
 
                         $("#submitButton").on("click", function() {
 
