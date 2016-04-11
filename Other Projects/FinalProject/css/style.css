@@ -1,29 +1,25 @@
-/**/
+@import url(https://fonts.googleapis.com/css?family=Lora);
 body {
-  font-family: 'Fira Sans', serif;
+  font-family: 'Lora', serif;
 }
 .nav, .carousel, .jsonCat {
   margin-top: 3%;
 }
 .nav-pills>li>a {
-  color: #000;
+  color: #black;
   font-size: 24px;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  background-color: #6DB733;
+  background-color: #pink;
 }
 .carousel {
-  background: #6DB733;
+  background: black;
   margin-top: 20px;
-}
-img {
-
-
 }
 .bs-example {
   margin: 20px;
 }
-.catImage {
+img {
   width: 100%;
 }
 .catName {
@@ -58,7 +54,7 @@ h1 {
 #submitButton {
   text-align: center;
 }
-#orderForm div {
+#orderForm {
   margin-top: 12px;
 }
 .text-success {
@@ -72,10 +68,8 @@ h1 {
   font-style: italic;
   letter-spacing: 5px;
 }
-#paws {
-  margin-left:15px;
-}
-div#orderForm{
+
+div #orderForm{
   margin-top: 2%;
 }
 html,body{
