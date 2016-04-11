@@ -29,19 +29,19 @@ $(document).ready(function() {
                         var html = "";
 
                         $.each(data, function(index, item) {
-                                html += '<div class="col-xs-12 col-md-4 jsonCat">' +
-                                    '<div class="catName">' + item.name + '</div>' +
-                                    '<div class="catType"><small>type </small>' + item.type + '</div>' +
-                                    '<div class="catGender"><small>gender </small>' + item.gender + '</div>' +
-                                    '<img class="catImage" src="' + item.image + '"/>' +
-                                    //deleted commentsContainer
-                                    '<div class="panel panel-default">' + //added
-                                    '<div class="panel-heading">Renter Comments</div>'; //added
-                                $.each(item.comments, function(ind, i) {
-                                        html += '<div class="panel-body">' + //added
-                                            '<div class="renterName"><small>' + i.username + '</small></div>' +
-                                            '<div class="renterComment">' + i.comment + '</div>' +
-                                            '<div class="renterStars">';
+                            html += '<div class="col-md-4">' +
+                              '<div class="carType">' + item.type + '</div>' + //name of the car
+                              '<div class="carStyle"> <small> Style </small>' + item.style + '</div>' + //style of the car
+                              '<div class="carYear"> <small> Year </small>' + item.year + '</div>' + //year of the car
+                              '<img class="carImage" src="' + item.image + '"/>' + //image of the car
+
+                              '<div class="panel panel-default">' + //surrounding panel
+                              '<div class="panel-heading">Renter Comments</div>'; //surrounding panel for renter comments
+                            $.each(item.comments, function(ind, i) {
+                                html += '<div class="panel-body">' +
+                                  '<div class="renterName">' + i.username + '</div>' + //renter username
+                                  '<div class="renterComment">' + i.comment + '</div>' + //the comment
+                                  '<div class="renterStars">'; //the rating the user gives
 
                                         for (var j = 1; j <= 5; j++) {
 
@@ -57,7 +57,7 @@ $(document).ready(function() {
 
                                 html += '</div>' + //panel
                                     '</div>'; //col-md-4
-                            }) //each cat
+                            }) //each dress
 
                         $("#pageContent").html(html);
 
@@ -109,7 +109,7 @@ $(document).ready(function() {
 
             alert("Sending to database " + JSON.stringify(order));
             $("#successMsg").html("Order Received!<br/><br/>" +
-              order.catSelect + " will be delivered on " +
+              order.dressSelect + " will be delivered on " +
               order.startRentDate +
               "<img id='paws' src='images/catPaws.jpeg'>");
 

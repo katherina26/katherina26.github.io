@@ -16,9 +16,9 @@ body {
   background: #6DB733;
   margin-top: 20px;
 }
-.carousel .item img {
-  margin: 0 auto;
-  /* Align slide image horizontally center */
+img {
+
+
 }
 .bs-example {
   margin: 20px;
