@@ -117,5 +117,3 @@ $(document).ready(function() {
         getPartial("homePage");
 
     })
-
-)
