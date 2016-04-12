@@ -2,7 +2,7 @@
   "type": "ACURA RSX",
   "style": "Coupe",
   "year": "2005",
-  "image": "images/blackdress.jpg",
+  "image": "images/car1.jpg",
   "comments": [{
     "username": "AboveAlpha",
     "stars": 5,
@@ -20,7 +20,7 @@
   "type": "BMW 3 Series",
   "style": "Sedan",
   "year": "2004",
-  "image": "images/burgandydress.jpeg",
+  "image": "images/car2.jpg",
   "comments": [{
     "username": "Jubeamese",
     "stars": 4,
@@ -38,7 +38,7 @@
   "type": "CHEVROLET COBALT",
   "style": "Sedan",
   "year": "2006",
-  "image": "images/navydress.jpeg",
+  "image": "images/car3.jpg",
   "comments": [{
     "username": "Yorker",
     "stars": 5,
@@ -56,7 +56,7 @@
   "type": "MAZDA6",
   "style": "Sedan",
   "year": "2005",
-  "image": "images/navydress2.jpg",
+  "image": "images/car4.jpg",
   "comments": [{
     "username": "PrettyComet",
     "stars": 2,
@@ -74,7 +74,7 @@
   "type": "KIA SPECTRA LX",
   "style": "Sedan",
   "year": "2005",
-  "image": "images/olivedress.jpg",
+  "image": "images/car5.jpg",
   "comments": [{
     "username": "Octane82",
     "stars": 5,
@@ -92,7 +92,7 @@
   "type": "BMW 3 SERIES 325I",
   "style": "Sedan",
   "year": "2003",
-  "image": "images/orangedress.jpg",
+  "image": "images/car6.jpg",
   "comments": [{
     "username": "Raven",
     "stars": 4,
@@ -106,4 +106,58 @@
     "stars": 2,
     "comment": "Picked it because of my friend, wasn't my choice"
   }]
+}, {
+  "type": "CHEVY COBALT LT",
+  "style": "Sedan",
+  "year": "2010",
+  "image": "images/car7.jpg",
+  "comments": [{
+    "username": "Jim8",
+    "stars": 5,
+    "comment": "Ran well, no complaints here"
+  }, {
+    "username": "Lory4322",
+    "stars": 1,
+    "comment": "Meh, wish I had picked another car to be honest."
+  }, {
+    "username": "Lilpool",
+    "stars": 5,
+    "comment": "Enjoyed it."
+  }]
+}, {
+  "type": "DODGE CARAVAN",
+  "style": "Van",
+  "year": "2007",
+  "image": "images/car8.jpg",
+  "comments": [{
+    "username": "Joey355",
+    "stars": 4,
+    "comment": "It ran well, fit everyone"
+  }, {
+    "username": "Millie40",
+    "stars": 1,
+    "comment": "Meh, broke down once, wasn't impressed."
+  }, {
+    "username": "Tonny67",
+    "stars": 3,
+    "comment": "Reminded me of my old car, had a couple kinks but did the job"
+  }]
+  }, {
+    "type": "CHRYSLER SEBRING",
+    "style": "Sedan",
+    "year": "2005",
+    "image": "images/car9.jpg",
+    "comments": [{
+      "username": "Packa",
+      "stars": 4,
+      "comment": "Smooth ride!"
+    }, {
+      "username": "Roadie",
+      "stars": 5,
+      "comment": "Enjoyed it for the weekend."
+    }, {
+      "username": "Hookah",
+      "stars": 1,
+      "comment": "Had weird smell to it"
+    }]
 }]
