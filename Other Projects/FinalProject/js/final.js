@@ -108,7 +108,7 @@ $(document).ready(function() {
             })
 
             alert("Sending to database " + JSON.stringify(order));
-            $("#successMsg").html("Thank You, your request for your order has been received!");
+            $("#successMsg").html("Thank You, your request for your order has been received");
             $("#myButton").on("click", function() {
 
         } //sendConfirmation
@@ -117,3 +117,11 @@ $(document).ready(function() {
         getPartial("homePage");
 
     })
+
+    $("#log").append("<br>Name: " + userOrder.myInput);
+    $("#log").append("<br>Address and Contact: " + userOrder.myTextarea);
+    $("#log").append("<br>Amount: " + userOrder.mySelect);
+    $("#log").append("<br>Size: " + userOrder.myRadio);
+    $("#log").append("<br>Colour: " + userOrder.myCheckValues.join());
+    $("#log").append("<br><br>Value of userOrder is: " + JSON.stringify(userOrder));
+})
