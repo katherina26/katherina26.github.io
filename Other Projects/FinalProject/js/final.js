@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#submitButton").on("mouseenter", function() {
+  $("#submitButton").on(function() {
       $("#log").append("<br>Button mouse enter");
       $(this).text("RENT NOW!");
     })
@@ -116,7 +116,7 @@ $(document).ready(function() {
       order[id] = $(this).val(); //set the field and the value
     })
 
-    alert("Order Processing");
+    alert("Order Processing...");
     alert(JSON.stringify(order));
     $("#successMsg").html("Thank You, your request for your order has been received!");
 
