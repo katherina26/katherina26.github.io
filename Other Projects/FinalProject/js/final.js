@@ -109,7 +109,21 @@ $(document).ready(function() {
 
             alert("Sending to database " + JSON.stringify(order));
             $("#successMsg").html("Order Received!");
+            $("#myButton").on("click", function() {
 
+              $("#log").append("<br>User clicked the button");
+
+              var userOrder = {};
+
+              userOrder.myInput = $("#mySingleLineText").val();
+              userOrder.myTextarea = $("#myTextarea").val();
+              userOrder.mySelect = $("#mySelect").val();
+              userOrder.myRadio = $("[name='size']:checked").val();
+              userOrder.myCheckValues = $("[name='color']:checked").val();
+
+              $("[name='vehicle']:checked").each(function() {
+                userOrder.myCheckValues.push($(this).val());
+              });
         } //sendConfirmation
 
         //begin the program, get the homepage
@@ -123,3 +137,4 @@ $(document).ready(function() {
     $("#log").append("<br>Size: " + userOrder.myRadio);
     $("#log").append("<br>Colour: " + userOrder.myCheckValues.join());
     $("#log").append("<br><br>Value of userOrder is: " + JSON.stringify(userOrder));
+})
