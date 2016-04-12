@@ -12,6 +12,10 @@ $(document).ready(function() {
                 var page = $(this).attr("id");
                 getPartial(page);
 
+                $("#pageContent").fadeIn();
+
+            }
+
             }) //click
 
         //get the partial via JSON, add to page, activiate associating js
