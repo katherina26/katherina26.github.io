@@ -115,5 +115,10 @@ $(document).ready(function() {
 
         //begin the program, get the homepage
         getPartial("homePage");
-        
+
+      } else (partial == "contactPage") { //ajax get contact.html
+          $.get("partials/contact.html", function(data) {
+              $("#pageContent").html(data);
+
+          })
     })
