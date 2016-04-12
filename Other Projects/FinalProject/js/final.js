@@ -12,9 +12,6 @@ $(document).ready(function() {
                 var page = $(this).attr("id");
                 getPartial(page);
 
-                $("#pageContent").fadeIn();
-
-            }
 
             }) //click
 
