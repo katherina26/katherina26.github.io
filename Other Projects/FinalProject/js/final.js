@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#myButton").on("mouseenter", function() {
+  $("#submitButton").on("mouseenter", function() {
       $("#log").append("<br>Button mouse enter");
       $(this).text("RENT NOW!");
     })
