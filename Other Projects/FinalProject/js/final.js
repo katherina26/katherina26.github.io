@@ -115,6 +115,10 @@ $(document).ready(function() {
             $("#successMsg").html("Thank You, your request for your order has been received");
             $("#myButton").on("click", function() {
 
+                            $("#log").append("<br>User clicked the button");
+
+                            var userOrder = {};
+
         } //sendConfirmation
 
         //begin the program, get the homepage
