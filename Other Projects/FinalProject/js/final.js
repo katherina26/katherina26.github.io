@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
+  $("#myButton").on("mouseenter", function() {
+      $("#log").append("<br>Button mouse enter");
+      $(this).text("RENT NOW!");
+    })
+    .on("mouseleave", function() {
+      $("#log").append("<br>Button mouseleave");
+      $(this).text("Click Me!");
+    });
   //get all the nav li, add click event
   $(".nav").find("li").on("click", function() {
       $("#pageContent").hide().html("");
