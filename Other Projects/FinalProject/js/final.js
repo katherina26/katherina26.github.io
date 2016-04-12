@@ -117,28 +117,6 @@ $(document).ready(function() {
     })
 
     alert("Order Processing");
-    $("#submitButton").on("click", function() {
-
-      $("#log").append("<br>User clicked the button");
-
-      var userOrder = {};
-
-      userOrder.myInput = $("#mySingleLineText").val();
-      userOrder.myTextarea = $("#myTextarea").val();
-      userOrder.mySelect = $("#mySelect").val();
-      userOrder.myRadio = $("[name='size']:checked").val();
-      userOrder.myCheckValues = $("[name='color']:checked").val();
-
-      $("[name='vehicle']:checked").each(function() {
-        userOrder.myCheckValues.push($(this).val());
-      });
-      //what is shown to the user for their order
-      $("#log").append("<br>Name: " + userOrder.myInput);
-      $("#log").append("<br>Address and Contact: " + userOrder.myTextarea);
-      $("#log").append("<br>Amount: " + userOrder.mySelect);
-      $("#log").append("<br>Size: " + userOrder.myRadio);
-      $("#log").append("<br>Colour: " + userOrder.myCheckValues.join());
-      $("#log").append("<br><br>Value of userOrder is: " + JSON.stringify(userOrder));
 
     $("#successMsg").html("Thank You, your request for your order has been received!");
 
