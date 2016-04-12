@@ -76,10 +76,7 @@ h1 {
 html, body {
   height: 100%
 }
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: inherit;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-  }
+footer{
+  text-align: right;
+  margin-right: 20%;
+}
