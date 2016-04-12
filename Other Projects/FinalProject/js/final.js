@@ -125,7 +125,6 @@ $(document).ready(function() {
     $("#log").append("<br>Name: " + userOrder.myInput);
     $("#log").append("<br>Address and Contact: " + userOrder.myTextarea);
     $("#log").append("<br>Amount: " + userOrder.mySelect);
-    $("#log").append("<br>Size: " + userOrder.myRadio);
     $("#log").append("<br>Colour: " + userOrder.myCheckValues.join());
     $("#log").append("<br><br>Value of userOrder is: " + JSON.stringify(userOrder));
 })
