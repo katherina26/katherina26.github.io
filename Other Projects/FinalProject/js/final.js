@@ -100,7 +100,7 @@ $(document).ready(function() {
             //make an object to record data for database;
             var order = {};
             //get all the jquery objects
-            var formData = $("input, select");
+            var formData = $("select");
             //for each jquery object
             formData.each(function() {
                 var id = $(this).attr("id");//get the id of the element
@@ -108,33 +108,12 @@ $(document).ready(function() {
             })
 
             alert("Sending to database " + JSON.stringify(order));
-            $("#successMsg").html("Order Received!");
+            $("#successMsg").html("Thank You, your request for your order has been received!");
             $("#myButton").on("click", function() {
 
-              $("#log").append("<br>User clicked the button");
-
-              var userOrder = {};
-
-              userOrder.myInput = $("#mySingleLineText").val();
-              userOrder.myTextarea = $("#myTextarea").val();
-              userOrder.mySelect = $("#mySelect").val();
-              userOrder.myRadio = $("[name='size']:checked").val();
-              userOrder.myCheckValues = $("[name='color']:checked").val();
-
-              $("[name='vehicle']:checked").each(function() {
-                userOrder.myCheckValues.push($(this).val());
-              });
         } //sendConfirmation
 
         //begin the program, get the homepage
         getPartial("homePage");
 
     })
-
-    $("#log").append("<br>Name: " + userOrder.myInput);
-    $("#log").append("<br>Address and Contact: " + userOrder.myTextarea);
-    $("#log").append("<br>Amount: " + userOrder.mySelect);
-    $("#log").append("<br>Size: " + userOrder.myRadio);
-    $("#log").append("<br>Colour: " + userOrder.myCheckValues.join());
-    $("#log").append("<br><br>Value of userOrder is: " + JSON.stringify(userOrder));
-})
