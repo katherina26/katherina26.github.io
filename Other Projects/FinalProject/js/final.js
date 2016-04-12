@@ -28,7 +28,7 @@ $(document).ready(function() {
       $.getJSON("jsonDatabase/final.json", function(data) {
 
           var html = "";
-          
+
           $.each(data, function(index, item) {
               html += '<div class="col-md-4">' +
                 '<div class="carType">' + item.type + '</div>' + //name of the car
@@ -59,7 +59,9 @@ $(document).ready(function() {
               html += '</div>' + //panel
                 '</div>'; //col-md-4
             }) //each dress
-
+            $(".carType").hover(function{
+              $(this).css("yellow");
+            })
           $("#pageContent").append(html);
 
         }) //getJSON
