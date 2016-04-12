@@ -30,36 +30,44 @@ $(document).ready(function() {
           var html = "";
 
           $.each(data, function(index, item) {
-              html += '<div class="col-md-4">' +
-                '<div class="carType">' + item.type + '</div>' + //name of the car
-                '<div class="carStyle"> <small> Style </small>' + item.style + '</div>' + //style of the car
-                '<div class="carYear"> <small> Year </small>' + item.year + '</div>' + //year of the car
-                '<img class="carImage" src="' + item.image + '"/>' + //image of the car
+            html += '<div class="col-md-4">' +
+              '<div class="carType">' + item.type + '</div>' + //name of the car
+              '<div class="carStyle"> <small> Style </small>' + item.style + '</div>' + //style of the car
+              '<div class="carYear"> <small> Year </small>' + item.year + '</div>' + //year of the car
+              '<img class="carImage" src="' + item.image + '"/>' + //image of the car
 
-                '<div class="panel panel-default">' + //surrounding panel
-                '<div class="panel-heading">Renter Comments</div>'; //surrounding panel for renter comments
-              $.each(item.comments, function(ind, i) {
-                  html += '<div class="panel-body">' +
-                    '<div class="renterName">' + i.username + '</div>' + //renter username
-                    '<div class="renterComment">' + i.comment + '</div>' + //the comment
-                    '<div class="renterStars">'; //the rating the user gives
+              '<div class="panel panel-default">' + //surrounding panel
+              '<div class="panel-heading">Renter Comments</div>'; //surrounding panel for renter comments
+            $.each(item.comments, function(ind, i) {
+                html += '<div class="panel-body">' +
+                  '<div class="renterName">' + i.username + '</div>' + //renter username
+                  '<div class="renterComment">' + i.comment + '</div>' + //the comment
+                  '<div class="renterStars">'; //the rating the user gives
 
-                  for (var j = 1; j <= 5; j++) {
+                for (var j = 1; j <= 5; j++) {
 
-                    if (j <= i.stars) {
-                      html += '<img class="stars" alt src="images/fullStar.png"/>';
-                    } else {
-                      html += '<img class="stars alt "src="images/emptyStar.png"/>';
-                    }
+                  if (j <= i.stars) {
+                    html += '<img class="stars" alt src="images/fullStar.png"/>';
+                  } else {
+                    html += '<img class="stars alt "src="images/emptyStar.png"/>';
                   }
-                  html += '</div>' + //end stars
-                    '</div>'; //panel body
-                }) //each comment
+                }
+                html += '</div>' + //end stars
+                  '</div>'; //panel body
+              }) //each comment
 
-              html += '</div>' + //panel
-                '</div>'; //col-md-4
+            html += '</div>' + //panel
+              '</div>'; //col-md-4
 
-            });
+              $('.arrow-up').scrollAnchor({
+                scrollStart: function () {
+                  $(".popup").text("Scrolling...");
+                },
+                scrollEnd: function () {
+                  $(".popup").text("Done!");
+                }
+              });
+          });
 
           $("#pageContent").append(html);
 
@@ -94,17 +102,17 @@ $(document).ready(function() {
             }) //click
         }) //get
     } else { //ajax get contact.html
-      $.get("partials/contact.html", function(data){
-          $("#pageContent").html(data);
-          $('.carousel').carousel();
+      $.get("partials/contact.html", function(data) {
+        $("#pageContent").html(data);
+        $('.carousel').carousel();
 
-          $("#submitButton2").on("click", function() {
-            alert("Thank You for your message. We will contact you shortly.");
+        $("#submitButton2").on("click", function() {
+          alert("Thank You for your message. We will contact you shortly.");
 
-            })
+        })
 
       })
-  }
+    }
 
 
     $("#pageContent").fadeIn();
