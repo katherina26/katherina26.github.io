@@ -108,10 +108,7 @@ $(document).ready(function() {
             })
 
             alert("Sending to database " + JSON.stringify(order));
-            $("#successMsg").html("Order Received!<br/><br/>" +
-              order.carSelect + " will be delivered on " +
-              order.startRentDate +
-              "<img id='paws' src='images/catPaws.jpeg'>");
+            $("#successMsg").html("Order Received!");
 
         } //sendConfirmation
 
