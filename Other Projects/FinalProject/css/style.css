@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
-h2, h3 {
-margin-left: 40%;
-
-}
 body {
   font-family: 'Lora', serif;
   background: url(../images/background.jpg);
