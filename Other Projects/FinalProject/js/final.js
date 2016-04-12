@@ -96,7 +96,7 @@ $(document).ready(function() {
     } else { //ajax get order.html
       $.get("partials/contact.html", function(data){
           $("#pageContent").html(data);
-  
+          $('.carousel').carousel();
       })
   }
 
