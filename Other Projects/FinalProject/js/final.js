@@ -116,8 +116,8 @@ $(document).ready(function() {
       order[id] = $(this).val(); //set the field and the value
     })
 
-    alert("Sending to database " + JSON.stringify(order));
-    $("#successMsg").html("Thank You, your request for your order has been received");
+    alert("Order Processing" + JSON.stringify(order));
+    $("#successMsg").html("Thank You, your request for your order has been received!");
 
   } //sendConfirmation
 
