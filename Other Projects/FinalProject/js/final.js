@@ -93,7 +93,10 @@ $(document).ready(function() {
 
             }) //click
         }) //get
-    }
+    } else { //ajax get order.html
+      
+  }
+
 
     $("#pageContent").fadeIn();
 
