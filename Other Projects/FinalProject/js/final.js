@@ -112,6 +112,13 @@ $(document).ready(function() {
             $("#successMsg").html("Thank You, your request for your order has been received");
 
         } //sendConfirmation
+        else if (partial == "commentPage") { //ajax get comments.html
+            $.get("partials/comments.html", function(data){
+
+              $("#pageContent").html(data);
+
+            }
+
 
         //begin the program, get the homepage
         getPartial("homePage");
