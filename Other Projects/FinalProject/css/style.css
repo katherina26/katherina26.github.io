@@ -75,3 +75,6 @@ h1 {
 html, body {
   height: 100%
 }
+footer{
+  text-align: right;
+}
