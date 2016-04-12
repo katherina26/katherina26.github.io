@@ -30,9 +30,7 @@ $(document).ready(function() {
           var html = "";
           $("carImage").hover(function(){
               $(this).css("background-color", "yellow");
-              }, function(){
-              $(this).css("background-color", "pink");
-          });
+              });
           $.each(data, function(index, item) {
               html += '<div class="col-md-4">' +
                 '<div class="carType">' + item.type + '</div>' + //name of the car
