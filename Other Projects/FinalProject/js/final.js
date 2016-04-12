@@ -61,7 +61,7 @@ $(document).ready(function() {
             }) //each dress
             $(".carType").hover(function{
               $(this).css("yellow");
-            })
+            });
           $("#pageContent").append(html);
 
         }) //getJSON
