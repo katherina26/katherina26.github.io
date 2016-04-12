@@ -94,7 +94,9 @@ $(document).ready(function() {
             }) //click
         }) //get
     } else { //ajax get order.html
-      
+      $.get("partials/contact.html", function(data){
+
+      }
   }
 
 
