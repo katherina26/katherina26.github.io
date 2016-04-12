@@ -100,6 +100,10 @@ $(document).ready(function() {
 
           $("#submitButton2").on("click", function() {
             alert("Thank You for your message. We will contact you shortly.");
+            {
+                //alert("no errors");
+                sendConfirmation();
+              }
 
             })
 
