@@ -2,7 +2,6 @@
 body {
   font-family: 'Lora', serif;
   background: url(../images/background.jpg);
-  opacity: 0.75;
 }
 .nav, .carousel {
   margin-top: 3%;
