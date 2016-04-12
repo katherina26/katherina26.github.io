@@ -24,7 +24,7 @@ $(document).ready(function() {
         $('.carousel').carousel();
       })
     } else if (partial == "seeCarsPage") { //ajax models.html
-      
+
       $.getJSON("jsonDatabase/final.json", function(data) {
 
           var html = "";
@@ -94,8 +94,12 @@ $(document).ready(function() {
             }) //click
         }) //get
     }
-    $("#pageContent").fadeIn();
+  else if (partial == "contactPage") { //ajax get order.html
+    $.get("partials/contact.html", function(data){
 
+
+    $("#pageContent").fadeIn();
+}
   }
 
   function sendConfirmation() {
