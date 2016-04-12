@@ -58,10 +58,11 @@ $(document).ready(function() {
 
               html += '</div>' + //panel
                 '</div>'; //col-md-4
-            }) //each dress
-            $(".carType").hover(function{
-              $(this).css("yellow");
-            });
+
+                $(".carType").hover(function{
+                  $(this).css("yellow");
+                })
+            })
           $("#pageContent").append(html);
 
         }) //getJSON
