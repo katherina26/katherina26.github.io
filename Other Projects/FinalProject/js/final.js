@@ -67,6 +67,7 @@ $(document).ready(function() {
 
                         $("#pageContent").html(data);
 
+                        $('#startOrderDate, #desiredDelieveryDate').datepicker({});
 
                         $("#submitButton").on("click", function() {
 
@@ -125,56 +126,3 @@ $(document).ready(function() {
     $("#log").append("<br>Size: " + userOrder.myRadio);
     $("#log").append("<br>Colour: " + userOrder.myCheckValues.join());
     $("#log").append("<br><br>Value of userOrder is: " + JSON.stringify(userOrder));
-
-    //ready
-    /*
-                //activate the datepicker
-                $('#startRentDate, #endRentDate').datepicker({});
-
-                //user clicks submit
-                $("#submitButton").on("click", function() {
-
-                  //add the error class to div of empty inputs
-                  $("input, select").filter(function() {
-                    return !this.value;
-                  }).closest("div").addClass("has-error")
-
-                  //remove the error class from all filled inputs
-                  $("input, select").filter(function() {
-                    return this.value;
-                  }).closest("div").removeClass("has-error");
-
-                  //get all errors
-                  var hasError = $(".has-error");
-
-                  //if no errors
-                  if (hasError.length < 1) {
-                    sendConfirmation();
-                  }
-
-                })
-
-
-                //do when order valid
-                function sendConfirmation() {
-
-                  //we will store all our order information here
-                  var order = {};
-
-                  //get all input values
-                  var inputs = $("input, select");
-
-                  //put all the input values into object ; this each can be done with jquery objects
-                  inputs.each(function() {
-                    var id = $(this).attr("id");
-                    order[id] = $(this).val();
-                  })
-
-                  //act as if sending to databse
-                  alert("send to databse: " + JSON.stringify(order));
-
-                  //show success message
-                  $("#successMsg").html("Order Received!<br/><br/>" +
-                    order.catSelect + " will be delivered on " + order.startRentDate + "<img id='paws' src='images/catPaws.jpeg'>");
-                }//end sendConfirmation
-    */
