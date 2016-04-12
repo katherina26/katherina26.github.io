@@ -93,7 +93,7 @@ $(document).ready(function() {
 
             }) //click
         }) //get
-    } else { //ajax get order.html
+    } else { //ajax get contact.html
       $.get("partials/contact.html", function(data){
           $("#pageContent").html(data);
           $('.carousel').carousel();
