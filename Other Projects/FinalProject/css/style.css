@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 body {
   font-family: 'Lora', serif;
+  background: url(../images/background.jpg);
 }
 .nav, .carousel {
   margin-top: 3%;
@@ -22,13 +23,12 @@ body {
 img {
 width: 100%;
 text-align: center;
-border: black 2px;
 }
 #submitButton {
   text-align: center;
 }
 #orderForm {
-  margin-top: 12px;
+  margin-top: 15px;
 }
 .text-success {
   text-align: center;
