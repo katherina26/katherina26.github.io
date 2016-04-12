@@ -20,8 +20,8 @@ body {
   margin: 20px;
 }
 img {
-  width: 200px;
-  height: 300px;
+width: 100%;
+text-align: center;
 }
 .vertical-center {
   min-height: 100%;
