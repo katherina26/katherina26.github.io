@@ -98,7 +98,7 @@ $(document).ready(function() {
         function sendConfirmation() {
             //make an object to record data for database;
             var order = {};
-            //get all teh jquery objects
+            //get all the jquery objects
             var formData = $("input, select");
             //for each jquery object
             formData.each(function() {
@@ -108,7 +108,7 @@ $(document).ready(function() {
 
             alert("Sending to database " + JSON.stringify(order));
             $("#successMsg").html("Order Received!<br/><br/>" +
-              order.dressSelect + " will be delivered on " +
+              order.carSelect + " will be delivered on " +
               order.startRentDate +
               "<img id='paws' src='images/catPaws.jpeg'>");
 
