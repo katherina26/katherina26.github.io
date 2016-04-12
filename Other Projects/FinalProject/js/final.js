@@ -95,9 +95,6 @@ $(document).ready(function() {
     }
     $("#pageContent").fadeIn();
 
-  } (partial == "contactPage") { //ajax get contact.html
-      $.get("partials/contact.html", function(data) {
-        $("#pageContent").html(data);
   }
 
   function sendConfirmation() {
