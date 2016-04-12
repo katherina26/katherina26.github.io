@@ -116,9 +116,4 @@ $(document).ready(function() {
         //begin the program, get the homepage
         getPartial("homePage");
         
-} else if (partial == "contactPage") { //ajax get order.html
-    $.get("partials/contact.html", function(data) {
-
-
-    }
     })
