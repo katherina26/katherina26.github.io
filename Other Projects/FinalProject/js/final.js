@@ -117,7 +117,7 @@ $(document).ready(function() {
     })
 
     alert("Order Processing");
-
+    alert(JSON.stringify(order));
     $("#successMsg").html("Thank You, your request for your order has been received!");
 
   } //sendConfirmation
