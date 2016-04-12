@@ -1,13 +1,5 @@
 $(document).ready(function() {
 
-  $("#submitButton").on(function() {
-      $("#log").append("<br>Button mouse enter");
-      $(this).text("RENT NOW!");
-    })
-    .on("mouseleave", function() {
-      $("#log").append("<br>Button mouseleave");
-      $(this).text("Click Me!");
-    });
   //get all the nav li, add click event
   $(".nav").find("li").on("click", function() {
       $("#pageContent").hide().html("");
@@ -36,7 +28,11 @@ $(document).ready(function() {
       $.getJSON("jsonDatabase/final.json", function(data) {
 
           var html = "";
-
+          $("carImage").hover(function(){
+              $(this).css("background-color", "yellow");
+              }, function(){
+              $(this).css("background-color", "pink");
+          });
           $.each(data, function(index, item) {
               html += '<div class="col-md-4">' +
                 '<div class="carType">' + item.type + '</div>' + //name of the car
