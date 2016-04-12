@@ -59,7 +59,8 @@ $(document).ready(function() {
               html += '</div>' + //panel
                 '</div>'; //col-md-4
 
-            })
+            });
+
           $("#pageContent").append(html);
 
         }) //getJSON
