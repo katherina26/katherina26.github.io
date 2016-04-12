@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     }) //click
 
-  //get the partial via JSON, add to page, activiate associating js
+  //get the partial via JSON, add to page
   function getPartial(partial) {
 
     if (partial == "homePage") { //ajax get home.html
@@ -24,7 +24,7 @@ $(document).ready(function() {
         $('.carousel').carousel();
       })
     } else if (partial == "seeCarsPage") { //ajax models.html
-      //paste the getJSON here; change the append id; change the file name
+      
       $.getJSON("jsonDatabase/final.json", function(data) {
 
           var html = "";
