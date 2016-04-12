@@ -69,6 +69,10 @@ h1 {
   font-weight: bold;
   font-size: 25px;
 }
+.radio-inline {
+margin-top: 10px;
+
+}
 html,body{
     height: 100%
 }
