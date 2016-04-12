@@ -32,6 +32,7 @@ body {
   margin-top: 15px;
 }
 .text-success {
+  color: black;
   text-align: center;
   font-size: 20px;
   margin-top: 5px;
