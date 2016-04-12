@@ -100,7 +100,7 @@ $(document).ready(function() {
             //make an object to record data for database;
             var order = {};
             //get all the jquery objects
-            var formData = $("select");
+            var formData = $("input, select");
             //for each jquery object
             formData.each(function() {
                 var id = $(this).attr("id");//get the id of the element
