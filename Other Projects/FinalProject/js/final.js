@@ -112,7 +112,7 @@ $(document).ready(function() {
             $("#successMsg").html("Thank You, your request for your order has been received");
             $("#myButton").on("click", function() {
 
-        } //sendConfirmation
+        )} //sendConfirmation
 
         //begin the program, get the homepage
         getPartial("homePage");
