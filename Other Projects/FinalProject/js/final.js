@@ -94,12 +94,9 @@ $(document).ready(function() {
             }) //click
         }) //get
     }
-  else if (partial == "contactPage") { //ajax get order.html
-    $.get("partials/contact.html", function(data){
-
 
     $("#pageContent").fadeIn();
-}
+
   }
 
   function sendConfirmation() {
