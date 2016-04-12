@@ -59,14 +59,6 @@ $(document).ready(function() {
             html += '</div>' + //panel
               '</div>'; //col-md-4
 
-              $('.arrow-up').scrollAnchor({
-                scrollStart: function () {
-                  $(".popup").text("Scrolling...");
-                },
-                scrollEnd: function () {
-                  $(".popup").text("Done!");
-                }
-              });
           });
 
           $("#pageContent").append(html);
