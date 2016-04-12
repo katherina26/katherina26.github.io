@@ -20,7 +20,7 @@ body {
 .bs-example {
   margin: 20px;
 }
-img {
+.item {
 width: 100%;
 text-align: center;
 }
