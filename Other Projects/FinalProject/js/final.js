@@ -98,12 +98,8 @@ $(document).ready(function() {
           $("#pageContent").html(data);
           $('.carousel').carousel();
 
-          $("#submitButton").on("click", function() {
+          $("#submitButton2").on("click", function() {
             alert("Thank You for your message. We will contact you shortly.");
-            {
-                //alert("no errors");
-                sendConfirmation();
-              }
 
             })
 
