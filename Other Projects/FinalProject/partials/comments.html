@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Comments Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    .bs-example {
+      margin: 20px;
+    }
+    /* Fix alignment issue of label on extra small devices in Bootstrap 3.2 */
+
+    .form-horizontal .control-label {
+      padding-top: 7px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="detailBox">
+    <div class="titleBox">
+      <label>Comment Box</label>
+    </div>
+    <div class="commentBox">
+    </div>
+    <div class="actionBox">
+      <ul class="commentList">
+        <li>
+          <div class="commenterImage">
+            <img src="http://lorempixel.com/50/50/people/6" />
+          </div>
+          <div class="commentText">
+            <p class="">I recommend this website 100%!</p> <span class="date sub-text">on March 5th, 2016</span>
+
+          </div>
+        </li>
+        <li>
+          <div class="commenterImage">
+            <img src="http://lorempixel.com/50/50/people/7" />
+          </div>
+          <div class="commentText">
+            <p class="">I was skeptical at first about the fit of the dresses, but after ordering my first dress from here, I'm definitely going to order more.</p> <span class="date sub-text">on March 12th, 2016</span>
+
+          </div>
+        </li>
+        <li>
+          <div class="commenterImage">
+            <img src="http://lorempixel.com/50/50/people/9" />
+          </div>
+          <div class="commentText">
+            <p class="">These dresses fit amazing!</p> <span class="date sub-text">on March 15th, 2016</span>
+
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline" role="form">
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Your comments" />
+        </div>
+        <div class="form-group">
+          <button class="btn btn-default">Add</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="bs-example">
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="inputEmail" class="control-label col-xs-2">Email</label>
+        <div class="col-xs-10">
+          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword" class="control-label col-xs-2">Password</label>
+        <div class="col-xs-10">
+          <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
